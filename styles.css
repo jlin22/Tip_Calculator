@@ -1,13 +1,14 @@
 body {
 	background: #8E0E00;
-	background: -webkit-linear-gradient(to left, #8E0E00, #1F1C18);
-	background: linear-gradient(to left, #8E0E00, #1F1C18);
+	background: -webkit-linear-gradient(to left, #0BD1FB, #F7FCFC);
+	background: linear-gradient(to left, #0BD1FB, #F7FCFC);
 }
 
 #container {
 	font-family: Inconsolata, monospace;
-	height: 525px;
-	width: 350px;
+	color: white;
+	height: 400px;
+	width: 300px;
 	margin: auto;
 	background: #575757; 
 	text-align: center;
@@ -15,9 +16,23 @@ body {
 	border-radius: 20px;
 	--webkit-border-radius: 20px;
 	--moz-border-radius: 20px;
+	color: #cf80f8;
 }
 
 h1 {
 	background: #e9eaff;
+	padding: 10px 0 10px 0;	
+	color: #0070ff;
+	border: 2px solid #c49fec;
+	border-radius: 5px;
 }
 
+button, input {
+	font-family: Inconsolata, monospace;
+	font-size: 1.25em;
+	border-radius: 0;
+}
+
+#tip {
+	font-size: 3.5em;
+}

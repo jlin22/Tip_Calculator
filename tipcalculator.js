@@ -3,7 +3,10 @@ function calculateTip(e) {
   var percent = document.getElementById("percent").value;
 
   var total = bill * percent / 100.0; 
+	total = total.toFixed(2);
 
+	if (isNaN(total))
+		total = 0;
 	document.getElementById("tip").innerHTML = total;
 }
 
