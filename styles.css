@@ -1,0 +1,23 @@
+body {
+	background: #8E0E00;
+	background: -webkit-linear-gradient(to left, #8E0E00, #1F1C18);
+	background: linear-gradient(to left, #8E0E00, #1F1C18);
+}
+
+#container {
+	font-family: Inconsolata, monospace;
+	height: 525px;
+	width: 350px;
+	margin: auto;
+	background: #575757; 
+	text-align: center;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+	border-radius: 20px;
+	--webkit-border-radius: 20px;
+	--moz-border-radius: 20px;
+}
+
+h1 {
+	background: #e9eaff;
+}
+
